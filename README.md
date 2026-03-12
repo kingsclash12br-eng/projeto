@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center"> DEVLINKS </h1>
 
 <p align="center">
@@ -45,3 +46,6 @@ Esse projeto está sob a licença MIT.
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+=======
+
+>>>>>>> 01e1246d4a96c08d14590e45099ec2689c7c3858
