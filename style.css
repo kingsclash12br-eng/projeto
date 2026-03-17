@@ -42,8 +42,11 @@ body * {
 }
 .profile img {
   width: 112px;
+  height: 112px;
   margin: auto;
   display: block;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .profile p {
@@ -139,27 +142,27 @@ ul li a:hover {
 }
 
 @media (min-width: 700px) {
- :root {
-  --bg-url: url(./assets/bg-desktop.jpg);
- }
- .light {
-  --bg-url: url(./assets/bg-desktop-light.jpg);
- }
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
 
 @keyframes slide-in {
   from {
-    left:0;
+    left: 0;
   }
-  to{
-    left:50%;
+  to {
+    left: 50%;
   }
 }
 @keyframes slide-back {
   from {
-    left:50%;
+    left: 50%;
   }
-  to{
-    left:0;
+  to {
+    left: 0;
   }
 }
